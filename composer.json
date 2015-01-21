@@ -1,6 +1,6 @@
 {
-	"name" : "ydentidad/laravel-test",
-	"description" : "Laravel package to sanatize a string for use as URL's. It uses the PHP Normalizer class and fills whitespace with dashes.",
+	"name" : "ydentidad/acl",
+	"description" : "Laravel package to ACL.",
 	"version" : "1.0",
 	"type" : "laravel-library",
 	"authors" : [{
@@ -9,9 +9,9 @@
 		}
 	],
 	"keywords" : [
-		"laravel test"
+		"laravel acl"
 	],
-	"homepage" : "https://github.com/ydentidad/laravel-test",
+	"homepage" : "https://github.com/ydentidad/acl",
 	"license" : [
 		"MIT"
 	],
@@ -20,12 +20,12 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Ydentidad\\Test" : "src/"
+			"Ydentidad\\ACL" : "src/"
 		}
 	},
 	"minimum-stability" : "dev",
 	"support" : {
-		"source" : "https://github.com/ydentidad/laravel-test",
-		"issues" : "https://github.com/ydentidad/laravel-test/issues"
+		"source" : "https://github.com/ydentidad/acl",
+		"issues" : "https://github.com/ydentidad/acl/issues"
 	}
 }
